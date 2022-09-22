@@ -13,10 +13,10 @@ CSE Dept.
 9. Binary Search
 10. Linked List
 11. Stack Operations
-12.
+12. Applications of stack
 13. Queue Operations
 14. Tree Traversal
-15.
+15. Hashing using linear probing method
 16. Insertion Sort
 17. Merge Sort
 18. Quick Sort
