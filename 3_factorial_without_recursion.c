@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    int n=0, f=1;
+    printf("ENTER THE NUMBER FOR FACTORIAL--> ");
+    scanf("%d", &n);
+    for (int i=n; i>0; i--)
+    {
+        f*=i;
+    }
+    printf("THE FACTORIAL OF %d IS %d", n, f);
+}

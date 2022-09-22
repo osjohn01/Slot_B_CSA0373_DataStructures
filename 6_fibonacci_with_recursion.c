@@ -1,0 +1,21 @@
+#include<stdio.h>
+int fib(int n)
+{
+    static int a=0, b=1, c;
+    if (n>0)
+    {
+        printf("%d  ", a);
+        c=a+b;
+        a=b;
+        b=c;
+        fib(n-1);
+    }
+}
+int main()
+{
+    int n;
+    printf("ENTER FIBONACCI LIMIT --> ");
+    scanf("%d", &n);
+    printf("FIBONACCI SERIES\n");
+    fib(n);
+}
